@@ -1,0 +1,34 @@
+Question 0:
+    https://github.com/bdirksen/CMPUT404Lab7.git
+Question 1:
+    Flask is a microframework that allows developers to build web applications in python from scratch while Django 
+    is a full-stack framework with built-in features that make it easier but less customizable. Flask is more 
+    lightweight and easier to pick up while Django had more features and is a more complex system to learn
+
+Question 2:
+    REST stands for Representational State Transfer. some is restful if it follows the principles of REST.
+    must use http methods (get, post, put, delete) and use http status codes (200, 201, 400, 404, 500)
+    returns json data
+
+Question 3:
+    CRUD stands for Create, Read, Update, Delete.
+    Create: POST
+    Read: GET
+    Update: PUT
+    Delete: DELETE
+
+Question 4:
+    HTTP 1XX: Informational - Request received, continuing process
+    HTTP 2XX: Success
+    HTTP 3XX: Redirection - client must take some extra actions
+    HTTP 4XX: Client Error - Bad syntax or request
+    HTTP 5XX: Server Error 
+
+Question 5:
+    an XSS attack is when a malicious script is injected into a website.
+    if the server does not sanitize the input, the script will be executed when the page is loaded
+
+Question 6:
+    CORS stands for Cross-Origin Resource Sharing.
+    it is a security system that allows servers to restrict which websites can access their resources
+    you need to implement CORS if you are using allowing cross-domain access to your api
